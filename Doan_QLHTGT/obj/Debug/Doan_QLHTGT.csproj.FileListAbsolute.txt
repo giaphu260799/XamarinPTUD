@@ -1,0 +1,368 @@
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.dll.config
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.pdb
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.exe
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.exe.config
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.rsp
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.exe
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.exe.config
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.rsp
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.AppContext.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Collections.Immutable.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Console.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Compression.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Reflection.Metadata.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.AccessControl.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Claims.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Principal.Windows.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.ValueTuple.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.exe
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.exe.config
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.rsp
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe.config
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Antlr3.Runtime.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.SqlServer.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.Web.Infrastructure.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Newtonsoft.Json.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Net.Http.Formatting.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Helpers.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.WebHost.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Mvc.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Optimization.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Razor.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Razor.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\WebGrease.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.SqlServer.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Newtonsoft.Json.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Net.Http.Formatting.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Helpers.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.WebHost.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Mvc.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Optimization.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Razor.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Razor.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Antlr3.Runtime.pdb
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csprojAssemblyReference.cache
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CoreCompileInputs.cache
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CopyComplete
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.dll
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.pdb
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.Migrations.Give_it_a_name.resources
+D:\HK1_nam4\Ptud hd\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.GenerateResource.cache
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CoreCompileInputs.cache
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.dll.config
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.pdb
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.exe
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.exe.config
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.rsp
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.exe
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.exe.config
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.rsp
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.AppContext.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Console.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Compression.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Claims.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.ValueTuple.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.exe
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.exe.config
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.rsp
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Antlr3.Runtime.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.SqlServer.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Newtonsoft.Json.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Net.Http.Formatting.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Helpers.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.WebHost.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Mvc.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Optimization.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Razor.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Razor.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\WebGrease.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.SqlServer.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Newtonsoft.Json.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Net.Http.Formatting.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Helpers.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.WebHost.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Mvc.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Optimization.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Razor.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Razor.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Antlr3.Runtime.pdb
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CopyComplete
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.dll
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.pdb
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.Migrations.Initial.resources
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.GenerateResource.cache
+C:\Users\Le Van Minh.DESKTOP-G9CMBGS\Desktop\API_QuanLyDTGT\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.dll.config
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Doan_QLHTGT.pdb
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.exe
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.exe.config
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csc.rsp
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.exe
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.exe.config
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\csi.rsp
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Console.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.exe
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.exe.config
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\vbc.rsp
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Antlr3.Runtime.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Newtonsoft.Json.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Net.Http.Formatting.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Helpers.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.WebHost.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Mvc.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Optimization.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Razor.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\WebGrease.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Newtonsoft.Json.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Net.Http.Formatting.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Helpers.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Http.WebHost.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Mvc.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Optimization.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.Razor.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CopyComplete
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.dll
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.pdb
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.Migrations.Initial.resources
+C:\Users\admin\Downloads\API_QuanLyDTGT-master\API_QuanLyDTGT-master\Doan_QLHTGT\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.GenerateResource.cache
+D:\GiaoThongApp\Doan_QLHTGT\bin\Doan_QLHTGT.dll.config
+D:\GiaoThongApp\Doan_QLHTGT\bin\Doan_QLHTGT.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\Doan_QLHTGT.pdb
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\csc.exe
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\csc.exe.config
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\csc.rsp
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\csi.exe
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\csi.exe.config
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\csi.rsp
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.AppContext.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Collections.Immutable.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Console.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.IO.Compression.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.IO.Pipes.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Reflection.Metadata.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.AccessControl.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.Claims.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.ValueTuple.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\vbc.exe
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\vbc.exe.config
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\vbc.rsp
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe
+D:\GiaoThongApp\Doan_QLHTGT\bin\roslyn\VBCSCompiler.exe.config
+D:\GiaoThongApp\Doan_QLHTGT\bin\Antlr3.Runtime.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\EntityFramework.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\EntityFramework.SqlServer.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\Microsoft.Web.Infrastructure.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\Newtonsoft.Json.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Net.Http.Formatting.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Helpers.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Http.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Http.WebHost.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Mvc.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Optimization.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Razor.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.WebPages.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.WebPages.Razor.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\WebGrease.dll
+D:\GiaoThongApp\Doan_QLHTGT\bin\EntityFramework.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\EntityFramework.SqlServer.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\Newtonsoft.Json.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Net.Http.Formatting.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Helpers.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Http.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Http.WebHost.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Mvc.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Optimization.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.Razor.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.WebPages.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.WebPages.Deployment.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Web.WebPages.Razor.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\Antlr3.Runtime.pdb
+D:\GiaoThongApp\Doan_QLHTGT\bin\System.Diagnostics.DiagnosticSource.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\GiaoThongApp\Doan_QLHTGT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csprojAssemblyReference.cache
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.Migrations.Initial.resources
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.GenerateResource.cache
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CoreCompileInputs.cache
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.csproj.CopyComplete
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.dll
+D:\GiaoThongApp\Doan_QLHTGT\obj\Debug\Doan_QLHTGT.pdb

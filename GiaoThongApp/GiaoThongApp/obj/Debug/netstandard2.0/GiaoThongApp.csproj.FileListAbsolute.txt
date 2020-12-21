@@ -1,0 +1,16 @@
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\bin\Debug\netstandard2.0\GiaoThongApp.deps.json
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\bin\Debug\netstandard2.0\GiaoThongApp.dll
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\bin\Debug\netstandard2.0\ref\GiaoThongApp.dll
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\bin\Debug\netstandard2.0\GiaoThongApp.pdb
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\GiaoThongApp.csprojAssemblyReference.cache
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\ChangePassword.xaml.g.cs
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\GiaoThongApp.AssemblyInfoInputs.cache
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\GiaoThongApp.AssemblyInfo.cs
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\GiaoThongApp.dll
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\ref\GiaoThongApp.dll
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\GiaoThongApp.pdb
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\GiaoThongApp.csproj.CoreCompileInputs.cache
+D:\GiaoThongApp\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\XamlC.stamp

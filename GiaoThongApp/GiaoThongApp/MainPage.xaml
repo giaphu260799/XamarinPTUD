@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Đổi mật khẩu"
+                 Order="Secondary"
+                 Priority="0" Clicked="ChangePass"/>
+        <ToolbarItem Text="Đăng xuất"
+                 Order="Secondary"
+                 Priority="1" Clicked="LogOut"/>
+    </ContentPage.ToolbarItems>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#00b09b"
+                          Offset="0.1" />
+
+                <GradientStop Color="#96c93d"
+                          Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackLayout Spacing="20" VerticalOptions="Center">
+            <Label Text="Thông tin cá nhân" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+            <Frame Margin="20" BackgroundColor="Transparent" BorderColor="White" CornerRadius ="20" >
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*" />
+                        <ColumnDefinition Width="0.3*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Label Text="Tên" FontSize="20" HorizontalTextAlignment="Center"/>
+                    <Label x:Name ="Name" Text="{Binding Name}" FontSize="20" HorizontalTextAlignment="Start" Grid.Column="1"/>
+                    <Label Text="Địa chỉ" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="1"/>
+                    <Label x:Name ="Address" Text="{Binding Address}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Ngày cấp" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="2"/>
+                    <Label x:Name ="Date" Text="{Binding RegistrationDate}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="CMND/TCC" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="3"/>
+                    <Label x:Name ="IDCard" Text="{Binding IdentityCard}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="3" Grid.Column="1"/>
+                 </Grid>
+            </Frame>
+            <Grid Margin="10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*" />
+                    <ColumnDefinition Width="0.3*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Button Text="Xe sở hữu" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="18" FontAttributes="Bold" BackgroundColor="Transparent" 
+                     WidthRequest="200" HorizontalOptions="Center"/>
+                <Button Text="Lịch sử vi phạm" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="18" FontAttributes="Bold" BackgroundColor="Transparent" 
+                     WidthRequest="200" HorizontalOptions="Center" Grid.Column="1"/>
+             </Grid>
+        </StackLayout>
+    </Grid>
+</ContentPage>

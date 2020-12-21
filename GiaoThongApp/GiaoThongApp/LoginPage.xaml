@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.LoginPage">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#00b09b"
+                          Offset="0.1" />
+
+                <GradientStop Color="#96c93d"
+                          Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackLayout Spacing="20" VerticalOptions="Center">
+            <Image HeightRequest="70" Source="car.png"/>
+            <Label Text="Đăng nhập" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+            <Entry Text ="{Binding Username}" Margin ="5" Placeholder="Username"/>
+            <Entry Text ="{Binding Password}" IsPassword="true" Margin ="5" Placeholder="Password"/>
+            <Button Text="Đăng nhập" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
+                    Clicked ="LoginClicked" WidthRequest="200" HorizontalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

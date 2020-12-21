@@ -12,6 +12,7 @@ namespace GiaoThongApp
 {
     public partial class MainPage : ContentPage
     {
+        TaiKhoan tk = null;
         public MainPage()
         {
             InitializeComponent();
@@ -19,7 +20,7 @@ namespace GiaoThongApp
         }
         protected override void OnAppearing()
         {
-            TaiKhoan tk = (TaiKhoan)BindingContext;
+            tk = (TaiKhoan)BindingContext;
             BindingContext = new NguoiDangKyXeService().ShowInfo(tk);
         }
         private void LogOut(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace GiaoThongApp
         private void ChangePass(object sender, EventArgs e)
         {
             Navigation.PushAsync(new ChangePassword{
-                BindingContext = BindingContext
+                BindingContext = tk
             });
         }
     }

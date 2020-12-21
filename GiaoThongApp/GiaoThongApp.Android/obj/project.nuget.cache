@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9iFVBd//m/LI1fvje6dQI6wy6zRtCisRJhZCEmnRVdjZx9Ardhp6ZUbTCS64nS0qtWXGW9ka1vZlDGV6oDbI+w==",
+  "dgSpecHash": "72gZ8RMURRiKjOqUnLFmwhIS5KtWk7uyErKmuixjMkFnLwciy2UidoI7PrXGn5NW/AfsbWURSHxPzvyy3DhBWQ==",
   "success": true,
-  "projectFilePath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

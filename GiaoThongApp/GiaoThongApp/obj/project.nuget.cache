@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q+jZJtGcF68ld6qbqsoLi00jXggj4hV/gN3N4krtZezncpa7rVtHhF+JQE7SxmTvu/hNIsKfNEg062d3Zj1xqw==",
+  "dgSpecHash": "7RbPWBxts+Qo7u8DfvlAzfU/YFrn3H/vBjgocKfvDzcfjUL1Njf9gC9TR8P+NCgZBCxlqw4jidjQQxHhBLPVZg==",
   "success": true,
-  "projectFilePath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

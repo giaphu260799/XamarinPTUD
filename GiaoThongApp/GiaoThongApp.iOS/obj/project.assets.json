@@ -1058,11 +1058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.iOS\\GiaoThongApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.iOS\\GiaoThongApp.iOS.csproj",
       "projectName": "GiaoThongApp.iOS",
-      "projectPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.iOS\\GiaoThongApp.iOS.csproj",
+      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.iOS\\GiaoThongApp.iOS.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1083,8 +1083,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
-              "projectPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
+            "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
             }
           }
         }

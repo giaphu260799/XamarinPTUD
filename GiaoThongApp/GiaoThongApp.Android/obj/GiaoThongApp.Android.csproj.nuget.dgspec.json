@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {}
+    "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {}
   },
   "projects": {
-    "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
         "projectName": "GiaoThongApp.Android",
-        "projectPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.Android\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
-                "projectPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
+              "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
+                "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
+    "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
         "projectName": "GiaoThongApp",
-        "projectPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

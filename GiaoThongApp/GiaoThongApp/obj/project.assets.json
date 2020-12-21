@@ -678,11 +678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
       "projectName": "GiaoThongApp",
-      "projectPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.HomePage" Title="Trang chủ">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Đổi mật khẩu"
+                 Order="Secondary"
+                 Priority="0" Clicked="ChangePass"/>
+        <ToolbarItem Text="Đăng xuất"
+                 Order="Secondary"
+                 Priority="1" Clicked="LogOut"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="trafficCover.png"/>
+            <Grid Margin="0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout>
+                    <Image Source="ThongTinCaNhan.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                Tapped="OnImageThongTinCaNhanTapped"
+                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Thông tin cá nhân" FontSize="16" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Image Source="LichSuViPham.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                Tapped="OnImageLichSuViPhamTapped"
+                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Lịch sử vi phạm" FontSize="16" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                </StackLayout>
+                <StackLayout Grid.Column="2">
+                    <Image Source="Xe.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                Tapped="OnImageThongTinCaNhanTapped"
+                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Danh sách xe" FontSize="16" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </Grid>
+            <Grid Margin="0,20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <StackLayout>
+                    <Image Source="DangKyXe.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                Tapped="OnImageThongTinCaNhanTapped"
+                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Đăng ký xe" FontSize="16" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Image Source="NopPhat.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                Tapped="OnImageThongTinCaNhanTapped"
+                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Nộp phạt" FontSize="16" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                </StackLayout>
+                <StackLayout Grid.Column="2">
+                    <Image Source="BangLai.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                Tapped="OnImageThongTinCaNhanTapped"
+                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="Danh sách bằng lái" FontSize="16" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

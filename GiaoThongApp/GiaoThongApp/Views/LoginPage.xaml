@@ -6,16 +6,18 @@
         <StackLayout Spacing="20" VerticalOptions="Center">
             <Image HeightRequest="70" Source="car.png"/>
             <Label Text="Đăng nhập" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
-            <Entry x:Name="username" Margin ="5" Placeholder="Username"/>
-            <Entry x:Name="password" IsPassword="true" Margin ="5" Placeholder="Password"/>
+            <Entry x:Name="username" Text ="" Margin ="5" Placeholder="Username"/>
+            <Entry x:Name="password" Text ="" IsPassword="true" Margin ="5" Placeholder="Password"/>
             <Button Text="Đăng nhập" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
                     TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
                     Clicked ="LoginClicked" WidthRequest="200" HorizontalOptions="Center"/>
-            <Button Text="Đăng ký" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
-                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
-                    Clicked ="SignUpClicked" WidthRequest="200" HorizontalOptions="Center"/>
-            <Label Text="Chưa có tài khoản?" HorizontalTextAlignment="Center" TextColor="LightGray" FontSize="20" FontAttributes="Bold"
-                   />
+            <Label Text="Chưa có tài khoản?" HorizontalTextAlignment="Center" TextColor="LightGray" FontSize="20" FontAttributes="Bold">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Tapped="SignUpTapped"
+                    NumberOfTapsRequired="1"/>
+                </Label.GestureRecognizers>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

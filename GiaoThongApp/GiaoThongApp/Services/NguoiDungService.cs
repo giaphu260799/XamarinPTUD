@@ -15,34 +15,52 @@ namespace GiaoThongApp.Services
         {
 
         }
-        public  NguoiDung CheckUsernamePassword(string username, string password)
+        public NguoiDung CheckUsernamePassword(string username, string password)
         {
-            if (!String.IsNullOrEmpty(username) && !String.IsNullOrEmpty(password))
+            try
             {
                 var client = new HttpClient();
                 var response = client.PostAsync(uri + $"?username={username}&password={password}", null);
                 var result = JsonConvert.DeserializeObject<NguoiDung>(response.Result.Content.ReadAsStringAsync().Result);
                 return result;
             }
-            return null;
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERROR: " + ex.Message);
+                return null;
+            }
         }
         public bool UpdatePass(NguoiDung user)
         {
-            var client = new HttpClient();
-            var json = JsonConvert.SerializeObject(user);
-            var data = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = client.PutAsync(uri, data);
-            var result = response.Result.IsSuccessStatusCode;
-            return result;
+            try
+            {
+                var client = new HttpClient();
+                var response = client.GetAsync(uri + $"/DoiMatKhau?id={user.Id}&password={user.Password}");
+                var result = JsonConvert.DeserializeObject<bool>(response.Result.Content.ReadAsStringAsync().Result);
+                return result;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERROR: " + ex.Message);
+                return false;
+            }
         }
         public bool CreateUser(NguoiDung user)
         {
-            var client = new HttpClient();
-            var json = JsonConvert.SerializeObject(user);
-            var data = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = client.PutAsync(uri, data);
-            var result = response.Result.IsSuccessStatusCode;
-            return result;
+            try
+            {
+                var client = new HttpClient();
+                var json = JsonConvert.SerializeObject(user);
+                var data = new StringContent(json, Encoding.UTF8, "application/json");
+                var response = client.PostAsync(uri, data);
+                var result = JsonConvert.DeserializeObject<bool>(response.Result.Content.ReadAsStringAsync().Result);
+                return result;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERROR: " + ex.Message);
+                return false;
+            }
         }
     }
 }

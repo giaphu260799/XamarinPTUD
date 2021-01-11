@@ -16,11 +16,10 @@ namespace GiaoThongApp.Views
         public ChangePasswordPage()
         {
             InitializeComponent();
-            NavigationPage.SetHasBackButton(this, false);
         }
         private void LogOut(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new LoginPage());
+            Navigation.PopToRootAsync();
         }
 
         private void ChangePass(object sender, EventArgs e)
@@ -36,7 +35,7 @@ namespace GiaoThongApp.Views
                     if (result)
                     {
                         DisplayAlert("Thông báo", "Đổi mật khẩu thành công, vui lòng đăng nhập lại", "Tiếp tục");
-                        Navigation.PushAsync(new LoginPage { BindingContext = new NguoiDung() });
+                        Navigation.PopToRootAsync();
                     }
                     else
                         DisplayAlert("Thông báo", "Đổi mật khẩu thất bại", "Tiếp tục");
@@ -45,15 +44,7 @@ namespace GiaoThongApp.Views
                     DisplayAlert("Thông báo", "Đổi mật khẩu thất bại", "Tiếp tục");
             }
             else
-                 DisplayAlert("Thông báo", "Đổi mật khẩu thất bại", "Tiếp tục");
-        }
-        private void Profile(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MainPage
-            {
-                BindingContext = BindingContext
-            }
-            );
+                 DisplayAlert("Thông báo", "Không được để trống!", "Tiếp tục");
         }
     }
 }

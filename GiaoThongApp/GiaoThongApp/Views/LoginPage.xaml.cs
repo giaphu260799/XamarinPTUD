@@ -1,4 +1,5 @@
 ﻿using System;
+using GiaoThongApp.Models;
 using GiaoThongApp.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -15,22 +16,33 @@ namespace GiaoThongApp.Views
         }
         async void LoginClicked(object sender, EventArgs e)
         {
-            var result = new NguoiDungService().CheckUsernamePassword(username.Text,password.Text);
-            if (result != null)
+            if (!String.IsNullOrEmpty(username.Text) && !String.IsNullOrEmpty(password.Text))
             {
-                await Navigation.PushAsync(new MainPage
+                var result = new NguoiDungService().CheckUsernamePassword(username.Text, password.Text);
+                if (result != null)
                 {
-                    BindingContext = result
-                });
+                    await Navigation.PushAsync(new HomePage
+                    {
+                        BindingContext = result
+                    });
+                }
+                else
+                {
+                    await DisplayAlert("Thông báo", "Đăng nhập thất bại", "Tiếp tục");
+                }
             }
             else
             {
-                await DisplayAlert("Thông báo", "Đăng nhập thất bại", "Tiếp tục");
+                await DisplayAlert("Thông báo", "Không được để trống username/password!", "Tiếp tục");
             }
         }
-        async void SignUpClicked(object sender, EventArgs e)
+        async void SignUpTapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new DangKyPage());
+            await Navigation.PushAsync(new DangKyPage
+            {
+                BindingContext = new NguoiDung()
+            }
+            );
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using GiaoThongApp.Model;
+﻿using GiaoThongApp.Models;
+using GiaoThongApp.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace GiaoThongApp
         {
             Device.SetFlags(new[] { "Brush_Experimental" });
             InitializeComponent();
-            MainPage = new NavigationPage(new LoginPage { BindingContext = new TaiKhoan()})
+            MainPage = new NavigationPage(new LoginPage())
             {
                 BarBackgroundColor = Color.FromHex("#00b09b")
             };

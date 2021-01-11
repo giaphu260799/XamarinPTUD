@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiaoThongApp.iOS", "GiaoTho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiaoThongApp", "GiaoThongApp\GiaoThongApp\GiaoThongApp.csproj", "{E20E7946-8255-4E77-9DED-7046A61E7168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doan_QLHTGT", "Doan_QLHTGT\Doan_QLHTGT.csproj", "{0D9D97BF-EF6A-4039-A54C-3F29199B933B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,18 +73,6 @@ Global
 		{E20E7946-8255-4E77-9DED-7046A61E7168}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{E20E7946-8255-4E77-9DED-7046A61E7168}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{E20E7946-8255-4E77-9DED-7046A61E7168}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Release|iPhone.Build.0 = Release|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{0D9D97BF-EF6A-4039-A54C-3F29199B933B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

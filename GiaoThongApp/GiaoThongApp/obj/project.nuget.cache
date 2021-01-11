@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7RbPWBxts+Qo7u8DfvlAzfU/YFrn3H/vBjgocKfvDzcfjUL1Njf9gC9TR8P+NCgZBCxlqw4jidjQQxHhBLPVZg==",
+  "dgSpecHash": "YT8rTLkSk4iFp8O8W5nImbXiyXv7SSmGYIOaJa7ku0oaV6MSE2E7X3LSFlkLAz5YTb52oknJq8gfawiYWuFfzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.8.0.1821\\xamarin.forms.4.8.0.1821.nupkg.sha512"
   ],
   "logs": []

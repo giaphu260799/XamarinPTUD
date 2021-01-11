@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" VerticalOptions="Center">
+            <Image HeightRequest="70" Source="car.png"/>
+            <Label Text="Đăng nhập" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+            <Entry x:Name="username" Margin ="5" Placeholder="Username"/>
+            <Entry x:Name="password" IsPassword="true" Margin ="5" Placeholder="Password"/>
+            <Button Text="Đăng nhập" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
+                    Clicked ="LoginClicked" WidthRequest="200" HorizontalOptions="Center"/>
+            <Button Text="Đăng ký" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
+                    Clicked ="SignUpClicked" WidthRequest="200" HorizontalOptions="Center"/>
+            <Label Text="Chưa có tài khoản?" HorizontalTextAlignment="Center" TextColor="LightGray" FontSize="20" FontAttributes="Bold"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

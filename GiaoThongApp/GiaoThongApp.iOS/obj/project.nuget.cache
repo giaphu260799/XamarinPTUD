@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1RnZy29Wd8lNZacKMY4aVK4N8A4uwjrCvDKPEyisccncvMzdPGIZKAs43uJ70W4xd19XA2KEVLXOH7ph5fyHtQ==",
+  "dgSpecHash": "9GdmJ0DUTNo0ollx3s5ggqKlsShImvzJ5vMnfAyTbam74D+PgqXa0Gy5+LQOPrk2/L/BTCMSqKsnKPleaTEwlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.iOS\\GiaoThongApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,5 +8,19 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\4.8.0.1821\\xamarin.forms.4.8.0.1821.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.0 to 1.5.3.2. Reference the package directly from the project to select a different version. \r\n GiaoThongApp.iOS -> GiaoThongApp -> Xamarin.Essentials (>= 1.6.0) \r\n GiaoThongApp.iOS -> Xamarin.Essentials (>= 1.5.3.2)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

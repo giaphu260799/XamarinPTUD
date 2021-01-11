@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.DangKyPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" VerticalOptions="Center">
+            <Label Text="Đăng ký tài khoản" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
+            <Entry Text="{Binding Ten}"  Margin ="5" Placeholder="Họ và tên"/>
+            <Entry Text="{Binding CMND}"  Margin ="5" Placeholder="CMND/TCC"/>
+            <Entry Text="{Binding DiaChi}" Margin ="5" Placeholder="Địa chỉ"/>
+            <Picker SelectedItem="{Binding GioiTinh}" Title="Chọn giới tính" Margin ="5" FontSize="18"> 
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Nam</x:String>
+                        <x:String>Nữ</x:String>
+                        <x:String>Khác</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <DatePicker MinimumDate="01/01/1900" Date="{Binding NgaySinh}" Margin ="5"/>
+            <Entry Text="{Binding Username}"  Margin ="5" Placeholder="Username"/>
+            <Entry Text="{Binding Password}" IsPassword="true" Margin ="5" Placeholder="Password"/>
+            <Button Text="Đăng ký" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
+                     WidthRequest="200" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

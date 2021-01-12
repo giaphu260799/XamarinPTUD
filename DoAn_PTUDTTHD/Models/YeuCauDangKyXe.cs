@@ -26,6 +26,7 @@ namespace DoAn_PTUDTTHD.Models
         public Nullable<int> MPTruocBa_id { get; set; }
         public Nullable<int> MPCapBien_id { get; set; }
         public Nullable<int> CanBo_id { get; set; }
+        public string TrangThai { get; set; }
     
         public virtual CanBo CanBo { get; set; }
         public virtual HoaDon HoaDon { get; set; }

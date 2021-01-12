@@ -69,6 +69,7 @@
     <Property Name="NamSX" Type="Int32" />
     <NavigationProperty Name="YeuCauDangKyXes" Relationship="Self.fk_loaixe_yc" FromRole="LoaiXe" ToRole="YeuCauDangKyXe" />
     <NavigationProperty Name="Xes" Relationship="Self.fk_xe_loai" FromRole="LoaiXe" ToRole="Xe" />
+    <Property Name="Mau" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="LoiViPham">
     <Key>
@@ -112,7 +113,7 @@
     <Property Name="GioiTinh" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
     <Property Name="NgaySinh" Type="DateTime" Precision="3" />
     <Property Name="DiaChi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="BangLais" Relationship="Self.fk_banglai_nguoidung" FromRole="NguoiDung" ToRole="BangLai" />
     <NavigationProperty Name="Xes" Relationship="Self.fk_nguoidung_xe" FromRole="NguoiDung" ToRole="Xe" />
@@ -155,6 +156,7 @@
     <NavigationProperty Name="MucPhiCapBien" Relationship="Self.fk_mpcb" FromRole="YeuCauDangKyXe" ToRole="MucPhiCapBien" />
     <NavigationProperty Name="MucPhiTruocBa" Relationship="Self.fk_mptb" FromRole="YeuCauDangKyXe" ToRole="MucPhiTruocBa" />
     <NavigationProperty Name="NguoiDung" Relationship="Self.fk_nguoidung_yc" FromRole="YeuCauDangKyXe" ToRole="NguoiDung" />
+    <Property Name="TrangThai" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="fk_banglai_nguoidung">
     <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />

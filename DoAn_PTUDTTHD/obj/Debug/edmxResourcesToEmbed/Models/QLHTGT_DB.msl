@@ -57,6 +57,7 @@
     <EntitySetMapping Name="LoaiXes">
       <EntityTypeMapping TypeName="QLHTGTModel.LoaiXe">
         <MappingFragment StoreEntitySet="LoaiXe">
+          <ScalarProperty Name="Mau" ColumnName="Mau" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="NhanHieu" ColumnName="NhanHieu" />
           <ScalarProperty Name="MauXe" ColumnName="MauXe" />
@@ -126,6 +127,7 @@
     <EntitySetMapping Name="YeuCauDangKyXes">
       <EntityTypeMapping TypeName="QLHTGTModel.YeuCauDangKyXe">
         <MappingFragment StoreEntitySet="YeuCauDangKyXe">
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="SoKhung" ColumnName="SoKhung" />
           <ScalarProperty Name="SoMay" ColumnName="SoMay" />

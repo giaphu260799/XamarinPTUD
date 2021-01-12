@@ -16,6 +16,7 @@ create table YeuCauDangKyXe(
 	SoMay varchar(10),
 	GiaTien DECIMAL,
 	NgayHen DATETIME,
+	TrangThai varchar(25),
 	HDTruocBa INT,
 	HDCapBien INT,
 	NguoiDung_id INT,
@@ -53,6 +54,7 @@ create table LoaiXe(
 	ID int primary KEY IDENTITY,
 	NhanHieu varchar(10),
 	MauXe varchar(20),
+	Mau varchar(20),
 	NamSX int
 )
 go
@@ -160,15 +162,15 @@ VALUES  ( N'CanBo2', -- Ten - nvarchar(50)
           '123'  -- password - varchar(20)
           )
 INSERT INTO dbo.LoaiXe
-        ( NhanHieu, MauXe, NamSX )
 VALUES  ( 'HonDa', -- NhanHieu - varchar(10)
           'future', -- MauXe - varchar(20)
+		  'Trắng', --Mau - varchar(20)
           2000  -- NamSX - int
           )
-		  INSERT INTO dbo.LoaiXe
-        ( NhanHieu, MauXe, NamSX )
+INSERT INTO dbo.LoaiXe
 VALUES  ( 'Yamaha', -- NhanHieu - varchar(10)
           'exciter', -- MauXe - varchar(20)
+		  'Đen', --Mau - varchar(20)
           2020  -- NamSX - int
           )
 INSERT INTO dbo.Xe
@@ -222,3 +224,4 @@ insert into DanhSachViPham values(9,1);
 insert into DanhSachViPham values(2,2);
 insert into DanhSachViPham values(10,3);
 insert into DanhSachViPham values(11,3);
+

@@ -63,6 +63,7 @@
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NhanHieu" Type="varchar" MaxLength="10" />
     <Property Name="MauXe" Type="varchar" MaxLength="20" />
+    <Property Name="Mau" Type="varchar" MaxLength="20" />
     <Property Name="NamSX" Type="int" />
   </EntityType>
   <EntityType Name="LoiViPham">
@@ -104,7 +105,7 @@
     <Property Name="GioiTinh" Type="nvarchar" MaxLength="5" />
     <Property Name="NgaySinh" Type="datetime" />
     <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
-    <Property Name="username" Type="varchar" MaxLength="20" />
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="password" Type="varchar" MaxLength="20" />
   </EntityType>
   <EntityType Name="Xe">
@@ -128,6 +129,7 @@
     <Property Name="SoMay" Type="varchar" MaxLength="10" />
     <Property Name="GiaTien" Type="decimal" Precision="18" Scale="0" />
     <Property Name="NgayHen" Type="datetime" />
+    <Property Name="TrangThai" Type="varchar" MaxLength="25" />
     <Property Name="HDTruocBa" Type="int" />
     <Property Name="HDCapBien" Type="int" />
     <Property Name="NguoiDung_id" Type="int" />

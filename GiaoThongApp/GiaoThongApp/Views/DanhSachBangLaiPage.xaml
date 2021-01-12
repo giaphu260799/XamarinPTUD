@@ -12,7 +12,7 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Spacing="20" VerticalOptions="Center">
-            <Image Source="BangLai.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
+            <Image x:Name="img" Source="BangLai.png" HeightRequest="100" WidthRequest="100"/>
             <ListView x:Name="BangLaisView"
             ItemsSource="{Binding BangLais}" HasUnevenRows="True" ItemSelected="OnItemSelected">
                 <ListView.ItemTemplate>
@@ -26,6 +26,8 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Image x:Name="img_no" Source="no.png" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+            <Label x:Name="label_no" Text="Bạn không có bằng lái nào" HorizontalTextAlignment="Center" FontSize="25"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

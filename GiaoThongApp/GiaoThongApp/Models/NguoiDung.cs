@@ -14,5 +14,6 @@ namespace GiaoThongApp.Models
         public string DiaChi { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public IList<BangLai> BangLais { get; set;}
     }
 }

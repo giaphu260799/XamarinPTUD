@@ -12,7 +12,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                NguoiDung nguoiDung = db.NguoiDungs.Where(n => n.CMND == CMND).FirstOrDefault();
+                NguoiDung nguoiDung = db.NguoiDungs.Include("BangLais").Include("Xes").Include("YeuCauDangKyXes").Where(n => n.CMND == CMND).FirstOrDefault();
                 if (nguoiDung != null)
                 {
                     return nguoiDung;
@@ -24,7 +24,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                NguoiDung nguoiDung = db.NguoiDungs.Where(n => n.ID == id).FirstOrDefault();
+                NguoiDung nguoiDung = db.NguoiDungs.Include("BangLais").Include("Xes").Include("YeuCauDangKyXes").Where(n => n.ID == id).FirstOrDefault();
                 if (nguoiDung != null)
                 {
                     return nguoiDung;
@@ -36,7 +36,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                List<NguoiDung> nguoiDungs = db.NguoiDungs.ToList();
+                List<NguoiDung> nguoiDungs = db.NguoiDungs.Include("BangLais").Include("Xes").Include("YeuCauDangKyXes").ToList();
                 if (nguoiDungs != null)
                     return nguoiDungs;
             }
@@ -64,7 +64,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                NguoiDung nguoiDung = db.NguoiDungs.Where(c => c.username == username && c.password == password).FirstOrDefault();
+                NguoiDung nguoiDung = db.NguoiDungs.Include("BangLais").Include("Xes").Include("YeuCauDangKyXes").Where(c => c.username == username && c.password == password).FirstOrDefault();
                 if (nguoiDung != null)
                     return nguoiDung;
             }

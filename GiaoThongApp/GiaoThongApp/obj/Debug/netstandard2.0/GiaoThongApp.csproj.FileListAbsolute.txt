@@ -32,3 +32,5 @@ C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp\obj\Debug\
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\Views\DangKyPage.xaml.g.cs
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\Views\DanhSachBangLaiPage.xaml.g.cs
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp\obj\Debug\netstandard2.0\Views\ChiTietBangLaiPage.xaml.g.cs

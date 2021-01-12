@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.ChiTietBangLaiPage" Title="Chi tiết bằng lái">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Đổi mật khẩu"
+                 Order="Secondary"
+                 Priority="0" Clicked="ChangePass"/>
+        <ToolbarItem Text="Đăng xuất"
+                 Order="Secondary"
+                 Priority="1" Clicked="LogOut"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" VerticalOptions="Center">
+            <Image Source="BangLai.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
+            <Frame Margin="20" BackgroundColor="Transparent" BorderColor="White" CornerRadius ="20" >
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*" />
+                        <ColumnDefinition Width="0.3*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Label Text="Số bằng lái" FontSize="20" HorizontalTextAlignment="Center"/>
+                    <Label Text="{Binding SoBangLai}" FontSize="20" HorizontalTextAlignment="Start" Grid.Column="1"/>
+                    <Label Text="Hạng" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="1"/>
+                    <Label Text="{Binding Hang}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Họ và tên" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="2"/>
+                    <Label Text="{Binding NguoiDung.Ten}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="Ngày cấp" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="3"/>
+                    <Label Text="{Binding NgayCap, StringFormat='{0:MMMM dd, yyyy}'}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="3" Grid.Column="1"/>
+                    <Label Text="Nơi cấp" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="4"/>
+                    <Label Text="{Binding NoiCap}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="4" Grid.Column="1"/>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

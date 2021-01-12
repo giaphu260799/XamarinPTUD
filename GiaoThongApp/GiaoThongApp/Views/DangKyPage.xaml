@@ -4,9 +4,9 @@
              x:Class="GiaoThongApp.Views.DangKyPage" Title="Đăng ký tài khoản">
     <ContentPage.Content>
         <StackLayout Spacing="20" VerticalOptions="Center">
-            <Entry Text="{Binding Ten}" Margin ="5"  Placeholder="Họ và tên"/>
-            <Entry Keyboard="Numeric" Text="{Binding CMND}"  Margin ="5" Placeholder="CMND/TCC"/>
-            <Entry Text="{Binding DiaChi}" Margin ="5" Placeholder="Địa chỉ"/>
+            <Entry Text="{Binding Ten}" Margin ="5"  Placeholder="Họ và tên" ClearButtonVisibility="WhileEditing"/>
+            <Entry Keyboard="Numeric" Text="{Binding CMND}"  Margin ="5" Placeholder="CMND/TCC" ClearButtonVisibility="WhileEditing"/>
+            <Entry Text="{Binding DiaChi}" Margin ="5" Placeholder="Địa chỉ" ClearButtonVisibility="WhileEditing"/>
             <Picker SelectedItem="{Binding GioiTinh}" Title="Chọn giới tính" Margin ="5" FontSize="17"> 
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
@@ -17,8 +17,8 @@
                 </Picker.ItemsSource>
             </Picker>
             <DatePicker MinimumDate="01/01/1900" Date="{Binding NgaySinh}" Margin ="5"/>
-            <Entry Text="{Binding Username}"  Margin ="5" Placeholder="Username"/>
-            <Entry Text="{Binding Password}" IsPassword="true" Margin ="5" Placeholder="Password"/>
+            <Entry Text="{Binding Username}"  Margin ="5" Placeholder="Username" ClearButtonVisibility="WhileEditing"/>
+            <Entry Text="{Binding Password}" IsPassword="true" Margin ="5" Placeholder="Password" ClearButtonVisibility="WhileEditing"/>
             <Button Text="Đăng ký" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
                     TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
                     Clicked ="SignUpClicked" WidthRequest="200" HorizontalOptions="Center"/>

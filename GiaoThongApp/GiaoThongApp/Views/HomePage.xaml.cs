@@ -52,5 +52,12 @@ namespace GiaoThongApp.Views
                 throw ex;
             }
         }
+        public void OnImageDanhSachBangLaiTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DanhSachBangLaiPage
+            {
+                BindingContext = user
+            });
+        }
     }
 }

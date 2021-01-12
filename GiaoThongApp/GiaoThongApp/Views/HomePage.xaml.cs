@@ -21,6 +21,7 @@ namespace GiaoThongApp.Views
         protected override void OnAppearing()
         {
             user = (NguoiDung)BindingContext;
+            user.Xes = new XeService().GetXeByUser(user);
         }
         private void LogOut(object sender, EventArgs e)
         {
@@ -55,6 +56,13 @@ namespace GiaoThongApp.Views
         public void OnImageDanhSachBangLaiTapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new DanhSachBangLaiPage
+            {
+                BindingContext = user
+            });
+        }
+        public void OnImageDanhSachXeTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DanhSachXePage
             {
                 BindingContext = user
             });

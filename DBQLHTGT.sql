@@ -163,13 +163,13 @@ INSERT INTO dbo.LoaiXe
         ( NhanHieu, MauXe, NamSX )
 VALUES  ( 'HonDa', -- NhanHieu - varchar(10)
           'future', -- MauXe - varchar(20)
-          0  -- NamSX - int
+          2000  -- NamSX - int
           )
 		  INSERT INTO dbo.LoaiXe
         ( NhanHieu, MauXe, NamSX )
 VALUES  ( 'Yamaha', -- NhanHieu - varchar(10)
           'exciter', -- MauXe - varchar(20)
-          0  -- NamSX - int
+          2020  -- NamSX - int
           )
 INSERT INTO dbo.Xe
         ( SoKhung ,
@@ -201,3 +201,24 @@ VALUES  ( '222123' , -- SoKhung - varchar(10)
 			2, -- NguoiDung_id - int
 		  '59B1-48123'
         )
+insert into LoiViPham values(N'Vượt đèn đỏ, đèn vàng',600000,-2);
+insert into LoiViPham values(N'Người đang điều khiển xe máy sử dụng điện thoại di động, thiết bị âm thanh',1000000,-2);
+insert into LoiViPham values(N'Chuyển làn không có tín hiệu báo trước',400000,-1);
+insert into LoiViPham values(N'Dùng tay sử dụng điện thoại di động khi đang điều khiển xe ô tô chạy trên đường',1000000,-2);
+insert into LoiViPham values(N'Đi không đúng phần đường hoặc làn đường quy định',4000000,-3);
+insert into LoiViPham values(N'Đi không đúng theo chỉ dẫn của vạch kẻ đường',200000,-1);
+insert into LoiViPham values(N'Đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”',5000000,-3);
+insert into LoiViPham values(N'Đi vào đường có biển báo cấm phương tiện đang điều khiển',500000,-1);
+insert into LoiViPham values(N'Điều khiển xe ô tô không có gương chiếu hậu',300000,-1);
+insert into LoiViPham values(N'Không đội mũ bảo hiểm hoặc đội nhưng không cài quai đúng quy cách',200000,-1);
+insert into LoiViPham values(N'Không có  giấy phép lái xe',800000,-2);
+
+insert into BienBanViPham values(800000,-2,'2020-01-01 00:00:00.000',null,1);
+insert into BienBanViPham values(1000000,-2,'2020-02-01 00:00:00.000',null,1);
+insert into BienBanViPham values(1000000,-3,'2020-01-03 00:00:00.000',null,2);
+
+insert into DanhSachViPham values(8,1);
+insert into DanhSachViPham values(9,1);
+insert into DanhSachViPham values(2,2);
+insert into DanhSachViPham values(10,3);
+insert into DanhSachViPham values(11,3);

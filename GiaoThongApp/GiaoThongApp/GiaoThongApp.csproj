@@ -32,8 +32,14 @@
     <Compile Update="Views\ChangePasswordPage.xaml.cs">
       <DependentUpon>ChangePasswordPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\ChiTietXePage.xaml.cs">
+      <DependentUpon>ChiTietXePage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\ChiTietBangLaiPage.xaml.cs">
       <DependentUpon>ChiTietBangLaiPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\DanhSachXePage.xaml.cs">
+      <DependentUpon>DanhSachXePage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\DanhSachBangLaiPage.xaml.cs">
       <DependentUpon>DanhSachBangLaiPage.xaml</DependentUpon>

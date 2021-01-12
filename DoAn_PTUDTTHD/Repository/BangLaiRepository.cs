@@ -12,7 +12,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                List<BangLai> bangLais = db.BangLais.ToList();
+                List<BangLai> bangLais = db.BangLais.Include("NguoiDung").ToList();
                 if (bangLais != null)
                     return bangLais;
             }
@@ -22,7 +22,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                BangLai bangLai = db.BangLais.Where(b => b.ID == id).FirstOrDefault();
+                BangLai bangLai = db.BangLais.Include("NguoiDung").Where(b => b.ID == id).FirstOrDefault();
                 if (bangLai != null)
                     return bangLai;
             }
@@ -99,7 +99,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                BangLai bangLai = db.BangLais.Where(b => b.SoBangLai == SoBangLai).FirstOrDefault();
+                BangLai bangLai = db.BangLais.Include("NguoiDung").Where(b => b.SoBangLai == SoBangLai).FirstOrDefault();
                 if (bangLai != null)
                     return bangLai;
             }

@@ -43,7 +43,7 @@
                     <Image Source="Xe.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
-                Tapped="OnImageThongTinCaNhanTapped"
+                Tapped="OnImageDanhSachXeTapped"
                 NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>

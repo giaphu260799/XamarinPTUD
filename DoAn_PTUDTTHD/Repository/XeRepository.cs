@@ -12,7 +12,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                List<Xe> xes = db.Xes.ToList();
+                List<Xe> xes = db.Xes.Include("NguoiDung").Include("LoaiXe").ToList();
                 if (xes != null)
                     return xes;
             }
@@ -22,7 +22,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                Xe xe = db.Xes.Where(b => b.ID == id).FirstOrDefault();
+                Xe xe = db.Xes.Include("NguoiDung").Include("LoaiXe").Where(b => b.ID == id).FirstOrDefault();
                 if (xe != null)
                     return xe;
             }
@@ -100,7 +100,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                Xe xe = db.Xes.Where(b => b.BienSo == BienSo).FirstOrDefault();
+                Xe xe = db.Xes.Include("NguoiDung").Include("LoaiXe").Where(b => b.BienSo == BienSo).FirstOrDefault();
                 if (xe != null)
                     return xe;
             }
@@ -111,7 +111,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
-                List<Xe> xes = db.Xes.Where(b => b.NguoiDung_id == UserId).ToList();
+                List<Xe> xes = db.Xes.Include("NguoiDung").Include("LoaiXe").Where(b => b.NguoiDung_id == UserId).ToList();
                 if (xes != null)
                     return xes;
             }

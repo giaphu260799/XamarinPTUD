@@ -23,7 +23,7 @@ namespace GiaoThongApp.Views
             user = (NguoiDung)BindingContext;
             //user.Xes = new XeService().GetXeByUser(user);
             //BindingContext = user as NguoiDung;
-            if (user.Xes.Count == 0)
+            if (user.Xes.Count == 0 || user.Xes == null)
             {
                 img.IsVisible = false;
                 XesView.IsVisible = false;
@@ -53,6 +53,13 @@ namespace GiaoThongApp.Views
             Navigation.PushAsync(new ChiTietXePage
             {
                 BindingContext = xe
+            });
+        }
+        void DangKyXeClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DangKyXePage
+            {
+                BindingContext = user
             });
         }
     }

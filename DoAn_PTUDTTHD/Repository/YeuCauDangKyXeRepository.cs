@@ -38,10 +38,10 @@ namespace DoAn_PTUDTTHD.Repository
                 MucPhiCapBien mucPhiCapBien = db.MucPhiCapBiens.Where(n => n.ID == yeuCauDangKyXe.MPCapBien_id).FirstOrDefault();
                 CanBo canBo = db.CanBoes.Where(n => n.ID == yeuCauDangKyXe.CanBo_id).FirstOrDefault();
                 if (nguoiDung != null &&
-                    loaiXe != null &&
-                    mucPhiTruocBa != null &&
-                    mucPhiCapBien != null &&
-                    canBo != null
+                    loaiXe != null 
+                    //&& mucPhiTruocBa != null &&
+                    //mucPhiCapBien != null &&
+                    //canBo != null
                     )
                 {
                     try

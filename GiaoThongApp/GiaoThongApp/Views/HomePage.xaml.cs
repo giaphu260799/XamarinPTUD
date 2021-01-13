@@ -67,5 +67,12 @@ namespace GiaoThongApp.Views
                 BindingContext = user
             });
         }
+        public void OnImageDangKyXeTapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DangKyXePage
+            {
+                BindingContext = user
+            });
+        }
     }
 }

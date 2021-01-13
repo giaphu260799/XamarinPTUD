@@ -21,7 +21,7 @@ namespace GiaoThongApp.Views
         protected override void OnAppearing()
         {
             user = (NguoiDung)BindingContext;
-            if (user.BangLais.Count == 0)
+            if (user.BangLais.Count == 0 || user.BangLais == null)
             {
                 img.IsVisible = false;
                 BangLaisView.IsVisible = false;

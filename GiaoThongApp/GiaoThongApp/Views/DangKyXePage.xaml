@@ -1,27 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GiaoThongApp.Views.DangKyXePage" Title="Đăng ký tài khoản">
+             x:Class="GiaoThongApp.Views.DangKyXePage" Title="Đăng ký xe">
     <ContentPage.Content>
         <StackLayout Spacing="20" VerticalOptions="Center">
-            <Entry Text="{Binding Ten}" Margin ="5"  Placeholder="Họ và tên" ClearButtonVisibility="WhileEditing"/>
-            <Entry Keyboard="Numeric" Text="{Binding CMND}"  Margin ="5" Placeholder="CMND/TCC" ClearButtonVisibility="WhileEditing"/>
-            <Entry Text="{Binding DiaChi}" Margin ="5" Placeholder="Địa chỉ" ClearButtonVisibility="WhileEditing"/>
-            <Picker SelectedItem="{Binding GioiTinh}" Title="Chọn giới tính" Margin ="5" FontSize="17"> 
+            <Image Source="DangKyXe.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
+            <Picker x:Name="loai" Title="Chọn loại xe" Margin ="5" FontSize="17">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Nam</x:String>
-                        <x:String>Nữ</x:String>
-                        <x:String>Khác</x:String>
+                        <x:String>Xe ô tô</x:String>
+                        <x:String>Xe máy</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <DatePicker MinimumDate="01/01/1900" Date="{Binding NgaySinh}" Margin ="5"/>
-            <Entry Text="{Binding Username}"  Margin ="5" Placeholder="Username" ClearButtonVisibility="WhileEditing"/>
-            <Entry Text="{Binding Password}" IsPassword="true" Margin ="5" Placeholder="Password" ClearButtonVisibility="WhileEditing"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Entry x:Name="nhanhieu" Margin ="5"  Placeholder="Nhãn hiệu" ClearButtonVisibility="WhileEditing" TextTransform="Uppercase"/>
+                <Entry x:Name="mauxe" Margin ="5" Placeholder="Mẫu xe" ClearButtonVisibility="WhileEditing" TextTransform="Uppercase" Grid.Column="1"/>
+                <Entry x:Name="namsx" Keyboard="Numeric" Margin ="5" Placeholder="Năm sản xuất" ClearButtonVisibility="WhileEditing" Grid.Row="1"/>
+                <Entry x:Name="mau" Margin ="5" Placeholder="Màu sắc" ClearButtonVisibility="WhileEditing" TextTransform="Uppercase" Grid.Row="1" Grid.Column="1"/>
+                <Entry x:Name="sokhung" Margin ="5" Placeholder="Số khung" ClearButtonVisibility="WhileEditing" Grid.Row="2"/>
+                <Entry x:Name="somay" Margin ="5" Placeholder="Số máy" ClearButtonVisibility="WhileEditing" Grid.Row="2" Grid.Column="1"/>
+            </Grid>
+            <Entry x:Name="giatien" Keyboard="Numeric" Margin ="5" Placeholder="Giá tiền" ClearButtonVisibility="WhileEditing"/>
             <Button Text="Đăng ký" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
                     TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
-                    Clicked ="SignUpClicked" WidthRequest="200" HorizontalOptions="Center"/>
+                    Clicked ="DangKyXeClicked" WidthRequest="200" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

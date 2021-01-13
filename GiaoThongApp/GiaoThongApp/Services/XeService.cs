@@ -7,7 +7,7 @@ using System.Text;
 
 namespace GiaoThongApp.Services
 {
-    class XeService
+    public class XeService
     {
         private readonly string uri = "http://192.168.1.3/api/Xe";
         public XeService()

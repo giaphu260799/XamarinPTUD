@@ -544,6 +544,7 @@
           <Property Name="SoMay" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
           <Property Name="GiaTien" Type="Decimal" Precision="18" Scale="0" />
           <Property Name="NgayHen" Type="DateTime" Precision="3" />
+          <Property Name="TrangThai" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
           <Property Name="HDTruocBa" Type="Int32" />
           <Property Name="HDCapBien" Type="Int32" />
           <Property Name="NguoiDung_id" Type="Int32" />
@@ -558,7 +559,6 @@
           <NavigationProperty Name="MucPhiCapBien" Relationship="Self.fk_mpcb" FromRole="YeuCauDangKyXe" ToRole="MucPhiCapBien" />
           <NavigationProperty Name="MucPhiTruocBa" Relationship="Self.fk_mptb" FromRole="YeuCauDangKyXe" ToRole="MucPhiTruocBa" />
           <NavigationProperty Name="NguoiDung" Relationship="Self.fk_nguoidung_yc" FromRole="YeuCauDangKyXe" ToRole="NguoiDung" />
-          <Property Name="TrangThai" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="fk_banglai_nguoidung">
           <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />

@@ -5,6 +5,18 @@
     <ContentPage.Content>
         <StackLayout Spacing="20" VerticalOptions="Center">
             <Entry Text="{Binding Ten}" Margin ="5"  Placeholder="Họ và tên" ClearButtonVisibility="WhileEditing"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*" />
+                    <ColumnDefinition Width="0.3*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+            </Grid>
             <Entry Keyboard="Numeric" Text="{Binding CMND}"  Margin ="5" Placeholder="CMND/TCC" ClearButtonVisibility="WhileEditing"/>
             <Entry Text="{Binding DiaChi}" Margin ="5" Placeholder="Địa chỉ" ClearButtonVisibility="WhileEditing"/>
             <Picker SelectedItem="{Binding GioiTinh}" Title="Chọn giới tính" Margin ="5" FontSize="17"> 

@@ -19,6 +19,7 @@ namespace DoAn_PTUDTTHD.Models
         public string SoMay { get; set; }
         public Nullable<decimal> GiaTien { get; set; }
         public Nullable<System.DateTime> NgayHen { get; set; }
+        public string TrangThai { get; set; }
         public Nullable<int> HDTruocBa { get; set; }
         public Nullable<int> HDCapBien { get; set; }
         public Nullable<int> NguoiDung_id { get; set; }
@@ -26,7 +27,6 @@ namespace DoAn_PTUDTTHD.Models
         public Nullable<int> MPTruocBa_id { get; set; }
         public Nullable<int> MPCapBien_id { get; set; }
         public Nullable<int> CanBo_id { get; set; }
-        public string TrangThai { get; set; }
     
         public virtual CanBo CanBo { get; set; }
         public virtual HoaDon HoaDon { get; set; }

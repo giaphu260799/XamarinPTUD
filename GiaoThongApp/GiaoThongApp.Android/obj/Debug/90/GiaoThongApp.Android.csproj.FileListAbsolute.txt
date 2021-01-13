@@ -10,7 +10,6 @@ C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\bi
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\build.props
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\adb.props
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\GiaoThongApp.Android.csprojAssemblyReference.cache
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res.flag
@@ -41,6 +40,14 @@ C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\ob
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\car.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\banglai.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\lichsuvipham.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\thongtincanhan.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\dangkyxe.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\xe.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\nopphat.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\trafficcover.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\no.png
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\uploadflags.txt
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\resolvedassemblies.hash
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
@@ -481,11 +488,4 @@ C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\ob
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\banglai.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\lichsuvipham.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\thongtincanhan.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\dangkyxe.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\xe.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\nopphat.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\trafficcover.png
-C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\res\drawable\no.png
+C:\Users\admin\Documents\GitHub\XamarinPTUD\GiaoThongApp\GiaoThongApp.Android\obj\Debug\90\GiaoThongApp.Android.csprojAssemblyReference.cache

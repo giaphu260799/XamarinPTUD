@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {}
+    "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {
+    "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+        "projectUniqueName": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
         "projectName": "GiaoThongApp.Android",
-        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\obj\\",
+        "projectPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+        "packagesPath": "C:\\Users\\centa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\centa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
-                "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
+              "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
+                "projectPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
+    "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+        "projectUniqueName": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
         "projectName": "GiaoThongApp",
-        "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\obj\\",
+        "projectPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj",
+        "packagesPath": "C:\\Users\\centa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\centa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -80,6 +80,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -91,6 +92,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -121,7 +123,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

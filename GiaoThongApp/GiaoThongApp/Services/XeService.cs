@@ -9,7 +9,7 @@ namespace GiaoThongApp.Services
 {
     class XeService
     {
-        private readonly string uri = "http://192.168.1.3/api/Xe";
+        private readonly string uri = "http://192.168.1.4/api/Xe";
         public XeService()
         {
 

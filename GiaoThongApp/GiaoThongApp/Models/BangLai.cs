@@ -13,5 +13,6 @@ namespace GiaoThongApp.Models
         public string SoBangLai { get; set; }
         public int NguoiDung_id { get; set; }
         public NguoiDung NguoiDung { get; set; }
+        public List<BienBanViPham> BienBanViPhams { get; set; }
     }
 }

@@ -43,15 +43,18 @@ namespace GiaoThongApp.Views
         }
         public void OnImageLichSuViPhamTapped(object sender, EventArgs e)
         {
-
-            try
+            Navigation.PushAsync(new DanhSachBienBanViPhamPage
+            {
+                BindingContext = user
+            });
+            /*try
             {
                 DisplayAlert("Thông báo", "Nhấn", "Tiếp tục");
             }
             catch (Exception ex)
             {
                 throw ex;
-            }
+            }*/
         }
         public void OnImageDanhSachBangLaiTapped(object sender, EventArgs e)
         {

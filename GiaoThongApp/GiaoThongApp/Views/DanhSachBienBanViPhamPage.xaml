@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.DanhSachBienBanViPhamPage"
+             Title="Lịch sử vi phạm">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Đổi mật khẩu"
+                 Order="Secondary"
+                 Priority="0" Clicked="ChangePass"/>
+        <ToolbarItem Text="Đăng xuất"
+                 Order="Secondary"
+                 Priority="1" Clicked="LogOut"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" VerticalOptions="Center">
+            <Image x:Name="img" Source="LichSuViPham.png" HeightRequest="100" WidthRequest="100"/>
+            <ListView x:Name="BienBanViPhamsView"
+            ItemsSource="{Binding BienBanViPham}" HasUnevenRows="True" ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="10">
+                                <Label Text="{Binding ThoiGianViPham,StringFormat='Thời gian vi phạm: {0}'}" FontSize="20"/>
+                                <Label Text="{Binding TongTien,StringFormat='   Tổng tiền phạt: {0}'}" FontSize="17"/>
+                                <Label Text="{Binding TongDiemTru,StringFormat='   Tổng điểm trừ: {0}'}" FontSize="17"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Image x:Name="img_no" Source="no.png" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+            <Label x:Name="label_no" Text="Bạn hiện chưa có vi phạm được ghi nhận" HorizontalTextAlignment="Center" FontSize="25"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

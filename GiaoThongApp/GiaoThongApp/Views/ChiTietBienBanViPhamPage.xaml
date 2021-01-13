@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.ChiTietBienBanViPhamPage"
+             Title="Chi Tiết Vi Phạm">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Đổi mật khẩu"
+                 Order="Secondary"
+                 Priority="0" Clicked="ChangePass"/>
+        <ToolbarItem Text="Đăng xuất"
+                 Order="Secondary"
+                 Priority="1" Clicked="LogOut"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Spacing="20" VerticalOptions="Center">
+            <Image Source="LichSuViPham.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
+            <ListView x:Name="BienBanViPhamView"
+            ItemsSource="{Binding bienBan}" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="10">
+                                <Label Text="{Binding LoiViPham1,StringFormat='Lỗi vi phạm: {0}'}" FontSize="20"/>
+                                <Label Text="{Binding MucPhat,StringFormat='   Tiền phạt: {0}'}" FontSize="17"/>
+                                <Label Text="{Binding DiemTru,StringFormat='   Điểm trừ: {0}'}" FontSize="17"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="hoaDonBtn" WidthRequest="100" HeightRequest="40" VerticalOptions="Center" FontSize="20" Clicked="hoaDon_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

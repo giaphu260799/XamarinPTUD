@@ -77,5 +77,16 @@ namespace GiaoThongApp.Views
                 BindingContext = user
             });
         }
+        public void OnImageLichSuDangKyXeTapped(object sender, EventArgs e)
+        {
+            try
+            {
+                DisplayAlert("Thông báo", "Nhấn", "Tiếp tục");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

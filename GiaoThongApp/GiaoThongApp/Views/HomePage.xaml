@@ -67,14 +67,14 @@
                     <Label Text="Đăng ký xe" FontSize="15" VerticalOptions="Center" HorizontalTextAlignment="Center" />
                 </StackLayout>
                 <StackLayout Grid.Column="1">
-                    <Image Source="NopPhat.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
+                    <Image Source="LichSuDangKyXe.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer
-                Tapped="OnImageThongTinCaNhanTapped"
+                Tapped="OnImageLichSuDangKyXeTapped"
                 NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
-                    <Label Text="Nộp phạt" FontSize="15" VerticalOptions="Center" HorizontalTextAlignment="Center" />
+                    <Label Text="Lịch sử đăng ký xe" FontSize="15" VerticalOptions="Center" HorizontalTextAlignment="Center" />
                 </StackLayout>
                 <StackLayout Grid.Column="2">
                     <Image Source="BangLai.png" VerticalOptions="Center" HeightRequest="150" WidthRequest="150">

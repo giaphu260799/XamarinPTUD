@@ -6,8 +6,8 @@
         <StackLayout Spacing="20" VerticalOptions="Center">
             <Image HeightRequest="70" Source="car.png"/>
             <Label Text="Đăng nhập" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" FontAttributes="Bold"/>
-            <Entry x:Name="username" Text ="" Margin ="5" Placeholder="Username"/>
-            <Entry x:Name="password" Text ="" IsPassword="true" Margin ="5" Placeholder="Password"/>
+            <Entry x:Name="username" Placeholder="Username"/>
+            <Entry x:Name="password" IsPassword="true" Placeholder="Password"/>
             <Button Text="Đăng nhập" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
                     TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
                     Clicked ="LoginClicked" WidthRequest="200" HorizontalOptions="Center"/>

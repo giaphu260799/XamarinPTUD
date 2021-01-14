@@ -26,7 +26,7 @@ namespace GiaoThongApp.Views
             if (!String.IsNullOrEmpty(nhanhieu.Text) && !String.IsNullOrEmpty(mauxe.Text)
                 && !String.IsNullOrEmpty(namsx.Text) && !String.IsNullOrEmpty(mau.Text)
                    && !String.IsNullOrEmpty(sokhung.Text) && !String.IsNullOrEmpty(somay.Text)
-                    && !String.IsNullOrEmpty(giatien.Text) && !String.IsNullOrEmpty(loai.SelectedItem.ToString()))
+                    && !String.IsNullOrEmpty(giatien.Text) && loai.SelectedItem != null)
             {
                 user = (NguoiDung)BindingContext;
                 YeuCauDangKyXe yc = new YeuCauDangKyXe
@@ -36,16 +36,19 @@ namespace GiaoThongApp.Views
                     GiaTien = Convert.ToDecimal(giatien.Text)
                 };
                 var loaiXeService = new LoaiXeService();
-                yc.LoaiXe = loaiXeService.GetLoaiXe(nhanhieu.Text, mauxe.Text, mau.Text, Convert.ToInt32(namsx.Text));
+                var loaiXe = loaiXeService.GetLoaiXe(nhanhieu.Text, mauxe.Text, mau.Text, Convert.ToInt32(namsx.Text));
                 yc.NguoiDung_id = user.Id;
-                if (yc.LoaiXe == null)
+                if (loaiXe == null)
                 {
-                    yc.LoaiXe = new LoaiXe();
-                    yc.LoaiXe.Mau = mau.Text;
-                    yc.LoaiXe.NhanHieu = nhanhieu.Text;
-                    yc.LoaiXe.NamSX = Convert.ToInt32(namsx.Text);
-                    yc.LoaiXe.MauXe = mauxe.Text;
-                    if (loaiXeService.CreateLoaiXe(yc.LoaiXe))
+                    loaiXe = new LoaiXe();
+                    loaiXe.Mau = mau.Text;
+                    loaiXe.NhanHieu = nhanhieu.Text;
+                    loaiXe.NamSX = Convert.ToInt32(namsx.Text);
+                    loaiXe.MauXe = mauxe.Text;
+                    if (loai.SelectedItem.ToString() == "Xe máy")
+                        loaiXe.IsXeOto = false;
+                    else loaiXe.IsXeOto = true;
+                    if (loaiXeService.CreateLoaiXe(loaiXe))
                         yc.LoaiXe_id = loaiXeService.GetLoaiXe(nhanhieu.Text, mauxe.Text, mau.Text, Convert.ToInt32(namsx.Text)).Id;
                     else
                     {
@@ -54,15 +57,18 @@ namespace GiaoThongApp.Views
                     }
                 }
                 else
-                    yc.LoaiXe_id = yc.LoaiXe.Id;
+                    yc.LoaiXe_id = loaiXe.Id;
                 yc.TrangThai = "Chờ thanh toán";
-                if (loai.SelectedItem.ToString() == "Xe máy")
-                    yc.LoaiXe.IsXeOto = false;
-                else yc.LoaiXe.IsXeOto = true;
-                var ycService = new YeuCauDangKyXeService();
-                if (ycService.CreateYeuCau(yc,user))
+                var ycNew = new YeuCauDangKyXeService().CreateYeuCau(yc, user, loaiXe);
+                if (ycNew !=null)
                 {
-                    DisplayAlert("Thông báo", "Nộp yêu cầu đăng ký xe thành công", "Tiếp tục");
+                    DisplayAlert("Thông báo", "Nộp yêu cầu đăng ký thành công. Hãy thực hiện thanh toán trước bạ", "Tiếp tục");
+                    var previousPage = Navigation.NavigationStack.LastOrDefault();
+                    Navigation.PushAsync(new HoaDonTruocBaPage
+                    {
+                        BindingContext = ycNew
+                    });
+                    Navigation.RemovePage(previousPage);
                 }
                 else
                     DisplayAlert("Thông báo", "Nộp yêu cầu đăng ký xe thất bại, vui lòng thử lại", "Tiếp tục");

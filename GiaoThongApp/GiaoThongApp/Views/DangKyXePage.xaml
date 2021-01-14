@@ -23,12 +23,12 @@
                     <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
-                <Entry x:Name="nhanhieu" Margin ="5"  Placeholder="Nhãn hiệu" ClearButtonVisibility="WhileEditing" TextTransform="Uppercase"/>
-                <Entry x:Name="mauxe" Margin ="5" Placeholder="Mẫu xe" ClearButtonVisibility="WhileEditing" TextTransform="Uppercase" Grid.Column="1"/>
-                <Entry x:Name="namsx" Keyboard="Numeric" Margin ="5" Placeholder="Năm sản xuất" ClearButtonVisibility="WhileEditing" Grid.Row="1"/>
-                <Entry x:Name="mau" Margin ="5" Placeholder="Màu sắc" ClearButtonVisibility="WhileEditing" TextTransform="Uppercase" Grid.Row="1" Grid.Column="1"/>
-                <Entry x:Name="sokhung" Margin ="5" Placeholder="Số khung" ClearButtonVisibility="WhileEditing" Grid.Row="2"/>
-                <Entry x:Name="somay" Margin ="5" Placeholder="Số máy" ClearButtonVisibility="WhileEditing" Grid.Row="2" Grid.Column="1"/>
+                <Entry x:Name="nhanhieu"  Placeholder="Nhãn hiệu"  TextTransform="Uppercase"/>
+                <Entry x:Name="mauxe"  Placeholder="Mẫu xe"  TextTransform="Uppercase" Grid.Column="1"/>
+                <Entry x:Name="namsx" Keyboard="Numeric"  Placeholder="Năm sản xuất"  Grid.Row="1"/>
+                <Entry x:Name="mau"  Placeholder="Màu sắc" TextTransform="Uppercase" Grid.Row="1" Grid.Column="1"/>
+                <Entry x:Name="sokhung"  Placeholder="Số khung"  Grid.Row="2"/>
+                <Entry x:Name="somay"  Placeholder="Số máy" Grid.Row="2" Grid.Column="1"/>
             </Grid>
             <Entry x:Name="giatien" Keyboard="Numeric" Margin ="5" Placeholder="Giá tiền" ClearButtonVisibility="WhileEditing"/>
             <Button Text="Đăng ký" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 

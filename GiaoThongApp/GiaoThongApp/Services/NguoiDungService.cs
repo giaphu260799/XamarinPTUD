@@ -10,7 +10,7 @@ namespace GiaoThongApp.Services
 {
     public class NguoiDungService
     {
-        private readonly string uri = "http://192.168.1.4/api/NguoiDung";
+        private readonly string uri = "http://192.168.1.3/api/NguoiDung";
         public NguoiDungService()
         {
 

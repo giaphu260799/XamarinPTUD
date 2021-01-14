@@ -9,12 +9,12 @@ namespace GiaoThongApp.Services
 {
     class HoaDonService
     {
-        private readonly string uri = "http://192.168.1.4/api/HoaDon";
+        private readonly string uri = "http://192.168.1.3/api/HoaDon";
         public HoaDonService()
         {
 
         }
-        public bool CreateHoaDon(HoaDon hoaDon)
+        public HoaDon CreateHoaDon(HoaDon hoaDon)
         {
             try
             {
@@ -22,13 +22,13 @@ namespace GiaoThongApp.Services
                 var json = JsonConvert.SerializeObject(hoaDon);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
                 var response = client.PostAsync(uri, data);
-                var result = JsonConvert.DeserializeObject<bool>(response.Result.Content.ReadAsStringAsync().Result);
+                var result = JsonConvert.DeserializeObject<HoaDon>(response.Result.Content.ReadAsStringAsync().Result);
                 return result;
             }
             catch (HttpRequestException ex)
             {
                 Console.WriteLine("ERROR: " + ex.Message);
-                return false;
+                return null;
             }
         }
     }

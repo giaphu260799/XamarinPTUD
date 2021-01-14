@@ -43,9 +43,11 @@ namespace GiaoThongApp.Views
         }
         public void OnImageLichSuViPhamTapped(object sender, EventArgs e)
         {
+            BienBanViPhamService newService = new BienBanViPhamService();
+            List<BienBanViPham> BienBanViPhams = newService.GetViPhamByUser(user);
             Navigation.PushAsync(new DanhSachBienBanViPhamPage
             {
-                BindingContext = user
+                BindingContext = BienBanViPhams
             });
             /*try
             {

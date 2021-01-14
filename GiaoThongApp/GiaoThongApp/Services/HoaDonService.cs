@@ -31,5 +31,20 @@ namespace GiaoThongApp.Services
                 return null;
             }
         }
+        public HoaDon GetHoaDonByID(int id)
+        {
+            try
+            {
+                var client = new HttpClient();
+                var response = client.GetAsync(uri + $"/{id}");
+                var result = JsonConvert.DeserializeObject<HoaDon>(response.Result.Content.ReadAsStringAsync().Result);
+                return result;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERROR: " + ex.Message);
+                return null;
+            }
+        }
     }
 }

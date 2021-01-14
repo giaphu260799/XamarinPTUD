@@ -14,6 +14,9 @@ namespace GiaoThongApp.Views
     public partial class DanhSachBienBanViPhamPage : ContentPage
     {
         NguoiDung user = null;
+
+        List<BienBanViPham> BienBanViPhams = new List<BienBanViPham>();
+
         public DanhSachBienBanViPhamPage()
         {
             InitializeComponent();
@@ -21,34 +24,22 @@ namespace GiaoThongApp.Views
 
         protected override void OnAppearing()
         {
-            user = (NguoiDung)BindingContext;
-            if (user.BangLais.Count == 0)
+            BienBanViPhams = (List<BienBanViPham>)BindingContext;
+            user = BienBanViPhams.FirstOrDefault().BangLai.NguoiDung;
+            BienBanViPhamsView.ItemsSource = BienBanViPhams;
+            this.BindingContext = BienBanViPhams as List<BienBanViPham>;
+            if (BienBanViPhams.Count == 0)
             {
                 img.IsVisible = false;
                 BienBanViPhamsView.IsVisible = false;
             }
             else
             {
-                int viPhamCounter = 0;
-                foreach (var bangLai in user.BangLais)
-                {
-                    if (bangLai.BienBanViPhams.Count != 0)
-                    {
-                        viPhamCounter++;
-                    }
-                }
-                if (viPhamCounter == 0)
-                {
-                    img.IsVisible = false;
-                    BienBanViPhamsView.IsVisible = false;
-                }
-                else
-                {
-                    img_no.IsVisible = false;
-                    label_no.IsVisible = false;
-                }
+                img_no.IsVisible = false;
+                label_no.IsVisible = false;
             }
         }
+            
         private void LogOut(object sender, EventArgs e)
         {
             Navigation.PopToRootAsync();

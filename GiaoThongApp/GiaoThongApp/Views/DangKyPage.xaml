@@ -4,9 +4,89 @@
              x:Class="GiaoThongApp.Views.DangKyPage" Title="Đăng ký tài khoản">
     <ContentPage.Content>
         <StackLayout Spacing="20" VerticalOptions="Center">
-            <Entry Text="{Binding Ten}" Margin ="5"  Placeholder="Họ và tên" ClearButtonVisibility="WhileEditing"/>
+            <Entry x:Name="ten" Text="{Binding Ten}" Margin ="5"  Placeholder="Họ và tên" ClearButtonVisibility="WhileEditing"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*" />
+                    <ColumnDefinition Width="0.3*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+            </Grid>
             <Entry Keyboard="Numeric" Text="{Binding CMND}"  Margin ="5" Placeholder="CMND/TCC" ClearButtonVisibility="WhileEditing"/>
-            <Entry Text="{Binding DiaChi}" Margin ="5" Placeholder="Địa chỉ" ClearButtonVisibility="WhileEditing"/>
+            <Picker SelectedItem="{Binding DiaChi}" Title="Chọn địa chỉ" Margin ="5" FontSize="17">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Tp.HCM</x:String>
+                        <x:String>Hà Nội</x:String>
+                        <x:String>Hải Phòng</x:String>
+                        <x:String>Cần Thơ</x:String>
+                        <x:String>Đà Nẵng</x:String>
+                        <x:String>An Giang</x:String>
+                        <x:String>Bà Rịa - Vũng Tàu</x:String>
+                        <x:String>Bạc Liêu</x:String>
+                        <x:String>Bắc Giang</x:String>
+                        <x:String>Bắc Kạn</x:String>
+                        <x:String>Bắc Ninh</x:String>
+                        <x:String>Bến Tre</x:String>
+                        <x:String>Bình Định</x:String>
+                        <x:String>Bình Dương</x:String>
+                        <x:String>Bình Phước</x:String>
+                        <x:String>Bình Thuận</x:String>
+                        <x:String>Cà Mau</x:String>
+                        <x:String>Cao Bằng</x:String>
+                        <x:String>Đắk Lắk</x:String>
+                        <x:String>Đắk Nông</x:String>
+                        <x:String>Điện Biên</x:String>
+                        <x:String>Đồng Nai</x:String>
+                        <x:String>Đồng Tháp</x:String>
+                        <x:String>Gia Lai</x:String>
+                        <x:String>Hà Giang</x:String>
+                        <x:String>Hà Nam</x:String>
+                        <x:String>Hà Tĩnh</x:String>
+                        <x:String>Hải Dương</x:String>
+                        <x:String>Hậu Giang</x:String>
+                        <x:String>Hòa Bình</x:String>
+                        <x:String>Hưng Yên</x:String>
+                        <x:String>Khánh Hòa</x:String>
+                        <x:String>Kiên Giang</x:String>
+                        <x:String>Kon Tum</x:String>
+                        <x:String>Lai Châu</x:String>
+                        <x:String>Lâm Đồng</x:String>
+                        <x:String>Lạng Sơn</x:String>
+                        <x:String>Lào Cai</x:String>
+                        <x:String>Long An</x:String>
+                        <x:String>Nam Định</x:String>
+                        <x:String>Nghệ An</x:String>
+                        <x:String>Ninh Bình</x:String>
+                        <x:String>Ninh Thuận</x:String>
+                        <x:String>Phú Thọ</x:String>
+                        <x:String>Phú Yên</x:String>
+                        <x:String>Quảng Bình</x:String>
+                        <x:String>Quảng Nam</x:String>
+                        <x:String>Quảng Ngãi</x:String>
+                        <x:String>Quảng Ninh</x:String>
+                        <x:String>Quảng Trị</x:String>
+                        <x:String>Sóc Trăng</x:String>
+                        <x:String>Sơn La</x:String>
+                        <x:String>Tây Ninh</x:String>
+                        <x:String>Thái Bình</x:String>
+                        <x:String>Thái Nguyên</x:String>
+                        <x:String>Thanh Hóa</x:String>
+                        <x:String>Thừa Thiên Huế</x:String>
+                        <x:String>Tiền Giang</x:String>
+                        <x:String>Trà Vinh</x:String>
+                        <x:String>Tuyên Quang</x:String>
+                        <x:String>Vĩnh Long</x:String>
+                        <x:String>Vĩnh Phúc</x:String>
+                        <x:String>Yên Bái</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
             <Picker SelectedItem="{Binding GioiTinh}" Title="Chọn giới tính" Margin ="5" FontSize="17"> 
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">

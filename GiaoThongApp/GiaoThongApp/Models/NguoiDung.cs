@@ -16,5 +16,6 @@ namespace GiaoThongApp.Models
         public string Password { get; set; }
         public List<BangLai> BangLais { get; set;}
         public List<Xe> Xes { get; set; }
+        public List<YeuCauDangKyXe> YeuCauDangKyXes { get; set; }
     }
 }

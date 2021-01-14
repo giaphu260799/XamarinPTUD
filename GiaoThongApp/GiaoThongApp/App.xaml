@@ -20,5 +20,11 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style TargetType="Entry" ApplyToDerivedTypes="True">
+            <Setter Property="IsSpellCheckEnabled" Value="False"/>
+            <Setter Property="IsTextPredictionEnabled" Value="False"/>
+            <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
     </Application.Resources>
 </Application>

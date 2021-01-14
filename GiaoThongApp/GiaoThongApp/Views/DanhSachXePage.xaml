@@ -29,6 +29,9 @@
             </ListView>
             <Image x:Name="img_no" Source="no.png" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
             <Label x:Name="label_no" Text="Bạn không có xe nào" HorizontalTextAlignment="Center" FontSize="25"/>
+            <Button Margin="0,0,0,20"  Text="Đăng ký xe" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
+                    Clicked ="DangKyXeClicked" WidthRequest="200" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

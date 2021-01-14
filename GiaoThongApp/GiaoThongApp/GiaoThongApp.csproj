@@ -53,6 +53,9 @@
     <Compile Update="Views\DanhSachBangLaiPage.xaml.cs">
       <DependentUpon>DanhSachBangLaiPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\HoaDonTruocBaPage.xaml.cs">
+      <DependentUpon>HoaDonTruocBaPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>

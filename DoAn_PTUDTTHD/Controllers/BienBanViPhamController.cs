@@ -23,5 +23,18 @@ namespace DoAn_PTUDTTHD.Controllers
         {
             return bienBanViPhamRepository.findByBangLai(soBangLai);
         }
+
+        /// get by nguoiDungId 
+        public IEnumerable<BienBanViPham> Get(int nguoiDung_id)
+        {
+            return bienBanViPhamRepository.findByNguoiDung(nguoiDung_id);
+        }
+        //Get by id BienBanViPham
+        [System.Web.Http.HttpGet]
+        [System.Web.Http.Route("api/BienBanViPham/GetById")]
+        public BienBanViPham GetById(int id)
+        {
+            return bienBanViPhamRepository.findById(id);
+        }
     }
 }

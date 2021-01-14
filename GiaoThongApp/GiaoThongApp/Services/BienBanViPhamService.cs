@@ -2,26 +2,26 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Net;
 using System.Net.Http;
 using System.Text;
 
 namespace GiaoThongApp.Services
 {
-    public class NguoiDungService
+    public class BienBanViPhamService
     {
-        private readonly string uri = "http://192.168.1.3/api/NguoiDung";
-        public NguoiDungService()
+        private readonly string uri = "http://192.168.1.3/api/BienBanViPham";
+        public BienBanViPhamService()
         {
 
         }
-        public NguoiDung CheckUsernamePassword(string username, string password)
+        public List<BienBanViPham> GetViPhamByUser(NguoiDung user)
         {
             try
             {
                 var client = new HttpClient();
-                var response = client.PostAsync(uri + $"?username={username}&password={password}", null);
-                var result = JsonConvert.DeserializeObject<NguoiDung>(response.Result.Content.ReadAsStringAsync().Result);
+                var response = client.GetAsync(uri + $"?nguoiDung_id={user.Id}");
+                var result = JsonConvert.DeserializeObject<List<BienBanViPham>>(response.Result.Content.ReadAsStringAsync().Result);
+                result.RemoveAll(e => e==null);
                 return result;
             }
             catch (HttpRequestException ex)
@@ -30,29 +30,29 @@ namespace GiaoThongApp.Services
                 return null;
             }
         }
-        public bool UpdatePass(NguoiDung user)
+        public BienBanViPham GetLoiViPhamById(BienBanViPham BienBan)
         {
             try
             {
                 var client = new HttpClient();
-                var response = client.GetAsync(uri + $"/DoiMatKhau?id={user.Id}&password={user.Password}");
-                var result = JsonConvert.DeserializeObject<bool>(response.Result.Content.ReadAsStringAsync().Result);
+                var response = client.GetAsync(uri + $"/GetById?id={BienBan.Id}");
+                var result = JsonConvert.DeserializeObject<BienBanViPham>(response.Result.Content.ReadAsStringAsync().Result);
                 return result;
             }
             catch (HttpRequestException ex)
             {
                 Console.WriteLine("ERROR: " + ex.Message);
-                return false;
+                return null;
             }
         }
-        public bool CreateUser(NguoiDung user)
+        public bool UpdateBienBan(BienBanViPham bienBan)
         {
             try
             {
                 var client = new HttpClient();
-                var json = JsonConvert.SerializeObject(user);
+                var json = JsonConvert.SerializeObject(bienBan);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
-                var response = client.PostAsync(uri, data);
+                var response = client.PutAsync(uri,data);
                 var result = JsonConvert.DeserializeObject<bool>(response.Result.Content.ReadAsStringAsync().Result);
                 return result;
             }

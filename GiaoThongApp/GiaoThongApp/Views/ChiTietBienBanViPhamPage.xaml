@@ -15,7 +15,7 @@
         <StackLayout Spacing="20" VerticalOptions="Center">
             <Image Source="LichSuViPham.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
             <ListView x:Name="BienBanViPhamView"
-            ItemsSource="{Binding bienBan}" HasUnevenRows="True">
+            ItemsSource="{Binding loiViPhams}" HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -28,7 +28,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button x:Name="hoaDonBtn" WidthRequest="100" HeightRequest="40" VerticalOptions="Center" FontSize="20" Clicked="hoaDon_Clicked" />
+            <Button x:Name="hoaDonBtn" WidthRequest="100" HeightRequest="100" VerticalOptions="Center" FontSize="20" Clicked="hoaDon_Clicked" IsVisible="True" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

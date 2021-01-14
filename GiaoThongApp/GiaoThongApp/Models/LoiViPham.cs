@@ -10,6 +10,6 @@ namespace GiaoThongApp.Models
         public string LoiViPham1 { get; set; }
         public decimal MucPhat { get; set; }
         public int DiemTru { get; set; }
-        public List<BienBanViPham> BienBanViPhams { get; set; }
+        //public List<BienBanViPham> BienBanViPhams { get; set; }
     }
 }

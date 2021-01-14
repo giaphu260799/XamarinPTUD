@@ -35,7 +35,7 @@
             <StackLayout x:Name="ThanhToanSL" Spacing="20" VerticalOptions="Center">
                 <Image Source="NopPhat.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
                 <Image Margin="100" Source="QRcode.png" VerticalOptions="Center" HeightRequest="300" WidthRequest="300"/>
-                <Button x:Name="hoanThanhBtn" Text="Hoàn thành" WidthRequest="100" HeightRequest="40" VerticalOptions="Center" FontSize="20" Clicked="hoanThanh_Clicked" />
+                <Button x:Name="hoanThanhBtn" Text="Hoàn thành" WidthRequest="100" HeightRequest="100" VerticalOptions="Center" FontSize="20" Clicked="hoanThanh_Clicked" />
             </StackLayout>
         </StackLayout>
        

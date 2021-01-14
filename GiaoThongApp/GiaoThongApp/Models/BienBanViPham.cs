@@ -12,6 +12,7 @@ namespace GiaoThongApp.Models
         public DateTime ThoiGianViPham { get; set; }
         public BangLai BangLai { get; set; }
         public List<LoiViPham> LoiViPhams { get; set; }
-        public HoaDon HoaDon { get; set; }
+        public int? HDNopPhat { get; set; }
+        //public HoaDon HoaDon { get; set; }
     }
 }

@@ -15,6 +15,7 @@ namespace GiaoThongApp.Views
     public partial class HoaDonPage : ContentPage
     {
         BienBanViPham bienBan = null;
+        HoaDonService hoaDonService = null;
         public HoaDonPage()
         {
             InitializeComponent();
@@ -22,15 +23,20 @@ namespace GiaoThongApp.Views
         protected override void OnAppearing()
         {
             bienBan = (BienBanViPham)BindingContext;
-            if(bienBan.HoaDon == null)
+            if(bienBan.HDNopPhat == null)
             {
                 ChiTietHoaDonSL.IsVisible = false;
             }    
             else
             {
+                int hoaDon_id = (int)bienBan.HDNopPhat;
+                hoaDonService = new HoaDonService();
+                var hoaDon =  hoaDonService.GetHoaDonByID(hoaDon_id);
                 ThanhToanSL.IsVisible = false;
+                BindingContext = new { ThanhTien = hoaDon.ThanhTien, NgayThanhToan = hoaDon.NgayThanhToan };
             }
         }
+
         private void LogOut(object sender, EventArgs e)
         {
             Navigation.PopToRootAsync();
@@ -47,21 +53,39 @@ namespace GiaoThongApp.Views
         {
             try
             {
-                HoaDon hoaDon = new HoaDon { ThanhTien = bienBan.TongTien, NgayThanhToan = DateTime.Now, BienBanViPham = bienBan };
+                HoaDon hoaDon = new HoaDon { ThanhTien = Convert.ToDecimal(bienBan.TongTien), NgayThanhToan = DateTime.Now, HinhThucThanhToan_id = 1};
                 HoaDonService createHoaDon = new HoaDonService();
-                createHoaDon.CreateHoaDon(hoaDon);
-                try
+                var hd = createHoaDon.CreateHoaDon(hoaDon);
+                if (hd == null)
                 {
-                    DisplayAlert("Thành công", "Nhấn", "Tiếp tục");
+                    DisplayAlert("Thành công", "Thanh toán thành công", "Tiếp tục");
+                    return;
                 }
-                catch (Exception ex)
+                bienBan.HDNopPhat = hd.Id;
+                //bienBan.HoaDon = hd;
+                var htService = new BienBanViPhamService();
+                if (htService.UpdateBienBan(bienBan))
                 {
-                    throw ex;
+                    DisplayAlert("Thành công", "Thanh toán thành công", "Tiếp tục");
+                    ThanhToanSL.IsVisible = false;
+                    ChiTietHoaDonSL.IsVisible = true;
+                    BindingContext = new { ThanhTien = hd.ThanhTien, NgayThanhToan = hd.NgayThanhToan };
+                }
+                else
+                {
+                    try
+                    {
+                        DisplayAlert("Thành công", "Thanh toán thất bại", "Tiếp tục");
+                    }
+                    catch (Exception ex)
+                    {
+                        throw ex;
+                    }
                 }
             }
-            catch
+            catch (Exception ex1)
             {
-                throw new Exception();
+                throw ex1;
             }
         }
     }

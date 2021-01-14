@@ -12,6 +12,7 @@ namespace DoAn_PTUDTTHD.Repository
         {
             using (var db = new QLHTGTEntities())
             {
+
                 List<CanBo> canBos = db.CanBoes.ToList();
                 if (canBos != null)
                     return canBos;
@@ -38,7 +39,7 @@ namespace DoAn_PTUDTTHD.Repository
             }
             return null;
         }
-        public CanBo auth(string username,string password)
+        public CanBo auth(string username, string password)
         {
             using (var db = new QLHTGTEntities())
             {
@@ -46,9 +47,31 @@ namespace DoAn_PTUDTTHD.Repository
                 if (canBo != null)
                     return canBo;
             }
-                return null;
+            return null;
         }
+        public bool doiMatKhau(string username, string oldPassword, string newPassword)
+        {
 
+            using (var db = new QLHTGTEntities())
+            {
+                try
+                {
+
+                    CanBo canBo = db.CanBoes.Where(n => n.username == username).FirstOrDefault();
+                    if (canBo == null || canBo.password != oldPassword)
+                        return false;
+                    canBo.password = newPassword;
+                    if (db.SaveChanges() > 0)
+                        return true;
+                    else return false;
+
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
         public bool addCanBo(CanBo canBo)
         {
             using (var db = new QLHTGTEntities())

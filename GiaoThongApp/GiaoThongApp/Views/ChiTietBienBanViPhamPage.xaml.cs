@@ -14,7 +14,8 @@ namespace GiaoThongApp.Views
     public partial class ChiTietBienBanViPhamPage : ContentPage
     {
         BienBanViPham bienBan = null;
-        
+        List<LoiViPham> loiViPhams = new List<LoiViPham>();
+
         public ChiTietBienBanViPhamPage()
         {
             InitializeComponent();
@@ -23,7 +24,11 @@ namespace GiaoThongApp.Views
         protected override void OnAppearing()
         {
             bienBan = (BienBanViPham)BindingContext;
-            if(bienBan.HoaDon==null)
+            BienBanViPhamService newService = new BienBanViPhamService();
+            bienBan = newService.GetLoiViPhamById(bienBan);
+            loiViPhams = bienBan.LoiViPhams;
+            BienBanViPhamView.ItemsSource = loiViPhams;
+            if (bienBan.HDNopPhat==null)
             {
                 hoaDonBtn.Text = "Thanh toán";
             }
@@ -31,6 +36,7 @@ namespace GiaoThongApp.Views
             {
                 hoaDonBtn.Text = "Xem hóa đơn";
             }
+            
         }
         private void LogOut(object sender, EventArgs e)
         {
@@ -47,7 +53,10 @@ namespace GiaoThongApp.Views
 
         private void hoaDon_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new HoaDonPage
+            {
+                BindingContext = bienBan
+            });
         }
     }
 }

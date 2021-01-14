@@ -23,10 +23,10 @@
                     <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
-                <Entry x:Name="nhanhieu"  Placeholder="Nhãn hiệu"  TextTransform="Uppercase"/>
-                <Entry x:Name="mauxe"  Placeholder="Mẫu xe"  TextTransform="Uppercase" Grid.Column="1"/>
+                <Entry x:Name="nhanhieu"  Placeholder="Nhãn hiệu" />
+                <Entry x:Name="mauxe"  Placeholder="Mẫu xe"  Grid.Column="1"/>
                 <Entry x:Name="namsx" Keyboard="Numeric"  Placeholder="Năm sản xuất"  Grid.Row="1"/>
-                <Entry x:Name="mau"  Placeholder="Màu sắc" TextTransform="Uppercase" Grid.Row="1" Grid.Column="1"/>
+                <Entry x:Name="mau"  Placeholder="Màu sắc"  Grid.Row="1" Grid.Column="1"/>
                 <Entry x:Name="sokhung"  Placeholder="Số khung"  Grid.Row="2"/>
                 <Entry x:Name="somay"  Placeholder="Số máy" Grid.Row="2" Grid.Column="1"/>
             </Grid>

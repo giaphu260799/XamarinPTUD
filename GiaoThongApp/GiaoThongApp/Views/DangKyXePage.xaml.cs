@@ -41,10 +41,10 @@ namespace GiaoThongApp.Views
                 if (loaiXe == null)
                 {
                     loaiXe = new LoaiXe();
-                    loaiXe.Mau = mau.Text;
-                    loaiXe.NhanHieu = nhanhieu.Text;
+                    loaiXe.Mau = mau.Text.ToUpper();
+                    loaiXe.NhanHieu = nhanhieu.Text.ToUpper();
                     loaiXe.NamSX = Convert.ToInt32(namsx.Text);
-                    loaiXe.MauXe = mauxe.Text;
+                    loaiXe.MauXe = mauxe.Text.ToUpper();
                     if (loai.SelectedItem.ToString() == "Xe máy")
                         loaiXe.IsXeOto = false;
                     else loaiXe.IsXeOto = true;

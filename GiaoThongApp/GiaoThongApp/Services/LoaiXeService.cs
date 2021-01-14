@@ -31,6 +31,21 @@ namespace GiaoThongApp.Services
                 return false;
             }
         }
+        public LoaiXe GetLoaiXeByID(int id)
+        {
+            try
+            {
+                var client = new HttpClient();
+                var response = client.GetAsync(uri + $"/{id}");
+                var result = JsonConvert.DeserializeObject<LoaiXe>(response.Result.Content.ReadAsStringAsync().Result);
+                return result;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERROR: " + ex.Message);
+                return null;
+            }
+        }
         public LoaiXe GetLoaiXe(string nhanhieu, string mauxe, string mau, int namsx)
         {
             try

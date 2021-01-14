@@ -19,12 +19,5 @@ namespace GiaoThongApp.Models
         public int MPCapBien_id { get; set; }
         public int? CanBo_id { get; set; }
         public string TrangThai { get; set; }
-        //public CanBo CanBo { get; set; }
-        //public HoaDon HoaDon { get; set; }
-        //public HoaDon HoaDon1 { get; set; }
-        //public LoaiXe LoaiXe { get; set; }
-        //public MucPhiCapBien MucPhiCapBien { get; set; }
-        //public MucPhiTruocBa MucPhiTruocBa { get; set; }
-        //public NguoiDung NguoiDung { get; set; }
     }
 }

@@ -62,5 +62,20 @@ namespace GiaoThongApp.Services
                 return false;
             }
         }
+        public YeuCauDangKyXe GetYeuCauDangKyXeByID(int id)
+        {
+            try
+            {
+                var client = new HttpClient();
+                var response = client.GetAsync(uri + $"/{id}");
+                var result = JsonConvert.DeserializeObject<YeuCauDangKyXe>(response.Result.Content.ReadAsStringAsync().Result);
+                return result;
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("ERROR: " + ex.Message);
+                return null;
+            }
+        }
     }
 }

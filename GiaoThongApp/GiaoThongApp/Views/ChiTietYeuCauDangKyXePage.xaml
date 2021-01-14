@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GiaoThongApp.Views.ChiTietYeuCauDangKyXePage" Title="Chi tiết yêu cầu đăng ký xe">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Đổi mật khẩu"
+                 Order="Secondary"
+                 Priority="0" Clicked="ChangePass"/>
+        <ToolbarItem Text="Đăng xuất"
+                 Order="Secondary"
+                 Priority="1" Clicked="LogOut"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Image Source="LichSuDangKyXe.png" VerticalOptions="Center" HeightRequest="100" WidthRequest="100"/>
+            <Frame Margin="20" BackgroundColor="Transparent" BorderColor="White" CornerRadius ="20" >
+                <Grid Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*" />
+                        <ColumnDefinition Width="0.3*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                    </Grid.RowDefinitions>
+                    <Label Text="Loại xe" FontSize="20" HorizontalTextAlignment="Center"/>
+                    <Label x:Name="loai" FontSize="20" HorizontalTextAlignment="Start" Grid.Column="1"/>
+                    <Label Text="Nhãn hiệu" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="1"/>
+                    <Label x:Name="nhanhieu" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Mẫu xe" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="2"/>
+                    <Label x:Name="mauxe" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="Màu" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="3"/>
+                    <Label x:Name="mau" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="3" Grid.Column="1"/>
+                    <Label Text="Năm sản xuất" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="4"/>
+                    <Label x:Name="namsx" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="4" Grid.Column="1"/>
+                    <Label Text="Số khung" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="5"/>
+                    <Label Text="{Binding SoKhung}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="5" Grid.Column="1"/>
+                    <Label Text="Số máy" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="6"/>
+                    <Label Text="{Binding SoMay}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="6" Grid.Column="1"/>
+                    <Label Text="Giá tiền" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="7"/>
+                    <Label Text="{Binding GiaTien, StringFormat='{0:##,##} VNĐ'}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="7" Grid.Column="1"/>
+                    <Label Text="Trạng thái" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="8"/>
+                    <Label x:Name="trangthai" Text="{Binding TrangThai}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="8" Grid.Column="1"/>
+                    <Label Text="Ngày hẹn" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="9"/>
+                    <Label x:Name="ngayhen" Text="{Binding NgayHen, StringFormat='{0:MMMM dd, yyyy}'}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="9" Grid.Column="1"/>
+                </Grid>
+            </Frame>
+            <Button x:Name="thanhToanBtn" Text="Thanh toán" BorderColor="DarkBlue" BorderWidth ="3" CornerRadius ="20" 
+                    TextColor ="DarkBlue" FontSize="20" FontAttributes="Bold" BackgroundColor="Transparent" 
+                    Clicked ="ThanhToanClicked" WidthRequest="200" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

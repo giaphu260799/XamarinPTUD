@@ -14,6 +14,11 @@ namespace GiaoThongApp.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
+        protected override void OnAppearing()
+        {
+            username.Text = "";
+            password.Text = "";
+        }
         async void LoginClicked(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(username.Text) && !String.IsNullOrEmpty(password.Text))

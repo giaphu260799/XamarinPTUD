@@ -79,14 +79,10 @@ namespace GiaoThongApp.Views
         }
         public void OnImageLichSuDangKyXeTapped(object sender, EventArgs e)
         {
-            try
+            Navigation.PushAsync(new DanhSachDangKyXePage
             {
-                DisplayAlert("Thông báo", "Nhấn", "Tiếp tục");
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+                BindingContext = new NguoiDungService().GetUserByID(user.Id)
+            });
         }
     }
 }

@@ -68,7 +68,7 @@ namespace GiaoThongApp.Views
                     if (ycService.UpdateHDTruocBa(yc))
                     {
                         DisplayAlert("Thành công", "Thanh toán thành công", "Tiếp tục");
-                        thanhtien.Text = $"{Convert.ToUInt32(hd.ThanhTien)} VNĐ";
+                        thanhtien.Text = $"{String.Format("{0:##,##}",Convert.ToUInt32(hd.ThanhTien))} VNĐ";
                         ngayhen.Text = hd.NgayThanhToan.AddDays(3).ToString("MMMM dd, yyyy");
                         ngaytt.Text= hd.NgayThanhToan.ToString("MMMM dd, yyyy");
                         OnAppearing();

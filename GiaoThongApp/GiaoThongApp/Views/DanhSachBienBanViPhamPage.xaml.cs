@@ -25,7 +25,10 @@ namespace GiaoThongApp.Views
         protected override void OnAppearing()
         {
             BienBanViPhams = (List<BienBanViPham>)BindingContext;
-            user = BienBanViPhams.FirstOrDefault().BangLai.NguoiDung;
+            if (BienBanViPhams.Count != 0)
+            {
+                user = BienBanViPhams.FirstOrDefault().BangLai.NguoiDung;
+            }
             BienBanViPhamsView.ItemsSource = BienBanViPhams;
             this.BindingContext = BienBanViPhams as List<BienBanViPham>;
             if (BienBanViPhams.Count == 0)
@@ -47,10 +50,24 @@ namespace GiaoThongApp.Views
 
         private void ChangePass(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ChangePasswordPage
+            if (user != null)
             {
-                BindingContext = user
-            });
+                Navigation.PushAsync(new ChangePasswordPage
+                {
+                    BindingContext = user
+                });
+            }
+            else
+            {
+                try
+                {
+                    DisplayAlert("Không được đổi mật khẩu", "Không được đổi mật khẩu", "Tiếp tục");
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
         }
         private void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {

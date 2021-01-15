@@ -40,7 +40,7 @@
                     <Label Text="Số máy" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="5"/>
                     <Label Text="{Binding SoMay}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="5" Grid.Column="1"/>
                     <Label Text="Giá tiền" FontSize="20" HorizontalTextAlignment="Center" Grid.Row="6"/>
-                    <Label Text="{Binding GiaTien,StringFormat='{0} VNĐ'}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="6" Grid.Column="1"/>
+                    <Label Text="{Binding GiaTien,StringFormat='{0:##,##} VNĐ'}" FontSize="20" HorizontalTextAlignment="Start" Grid.Row="6" Grid.Column="1"/>
                 </Grid>
             </Frame>
         </StackLayout>

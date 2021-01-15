@@ -21,7 +21,7 @@
                         <ViewCell>
                             <StackLayout Margin="10">
                                 <Label Text="{Binding LoiViPham1,StringFormat='Lỗi vi phạm: {0}'}" FontSize="20"/>
-                                <Label Text="{Binding MucPhat,StringFormat='   Tiền phạt: {0}'}" FontSize="17"/>
+                                <Label Text="{Binding MucPhat,StringFormat='   Tiền phạt: {0:##,##} VNĐ'}" FontSize="17"/>
                                 <Label Text="{Binding DiemTru,StringFormat='   Điểm trừ: {0}'}" FontSize="17"/>
                             </StackLayout>
                         </ViewCell>

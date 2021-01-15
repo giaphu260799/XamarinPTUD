@@ -1974,24 +1974,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\centa\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
       "projectName": "GiaoThongApp.Android",
-      "projectPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
-      "packagesPath": "C:\\Users\\centa\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\GiaoThongApp.Android.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\centa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2005,8 +2005,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
-              "projectPath": "D:\\Code\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
+            "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj": {
+              "projectPath": "C:\\Users\\admin\\Documents\\GitHub\\XamarinPTUD\\GiaoThongApp\\GiaoThongApp\\GiaoThongApp.csproj"
             }
           }
         }
